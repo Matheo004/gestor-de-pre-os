@@ -1,9 +1,10 @@
 <?php
 // 1. CONEXÃO
-$servername = "sql101.infinityfree.com"; 
-$username   = "if0_41558105"; 
-$password   = "ribeiro004"; 
-$dbname     = "if0_41558105_db_precos"; 
+// Configurações de conexão (Substitua pelos seus dados)
+$servername = "seu_servidor_aqui"; 
+$username   = "seu_usuario_aqui"; 
+$password   = "sua_senha_aqui"; 
+$dbname     = "seu_banco_de_dados";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) { die("Erro de conexão: " . $conn->connect_error); }
